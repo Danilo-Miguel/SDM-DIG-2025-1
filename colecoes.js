@@ -39,6 +39,6 @@ let frutas = ["Cajá", "Umbu", "Maça", "Tangerina"];
 
 //console.log([0]);
 
-for (let i = 0; i < frutas.length; i++) {
-  console.log(`Indice ${i}: ${frutas[i]}`);
-}
+//for (let i = 0; i < frutas.length; i++) {
+//console.log(`Indice ${i}: ${frutas[i]}`);
+//}
