@@ -37,7 +37,3 @@ let soma  = numero1 + numero2
 console.log(soma)
 
 
-// Variável inicializada 
-// let naturalidade = "São Paulo"
-// let idade  = 39
-// const PI  = 3.14
