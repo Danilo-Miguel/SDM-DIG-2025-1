@@ -5,7 +5,7 @@ import axios from 'axios';
 const app = express();
 app.use(express.json());
 
-const mongoUri = "mongodb+srv://profdanilomiguel:sdm+usjt@sdm-dig.qyouzyj.mongodb.net/mongo-microsservices?retryWrites=true&w=majority&appName=SDM-DIG";
+const mongoUri = "mongodb+srv://profdanilomiguel:sdm*usjt@sdm-dig.qyouzyj.mongodb.net/mongo-microsservices?retryWrites=true&w=majority&appName=SDM-DIG";
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
