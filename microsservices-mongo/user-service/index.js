@@ -34,7 +34,7 @@ app.post('/usuarios', async (req, res) => {
     await novoUser.save();
 
 
-     await axios.post('http://localhost:3000/pedidos', {
+     await axios.post('http://localhost:4000/pedidos', {
         userId: usuario.id,
         produto: usuario.produto,
         quantidade: usuario.quantidade
